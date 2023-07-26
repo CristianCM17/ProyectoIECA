@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10px"
-        android:src="@drawable/Reglamento">
+        android:src="@drawable/normas">
 
     </ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>

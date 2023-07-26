@@ -1,9 +1,11 @@
 package com.example.proyectoieca
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
 
 class options : AppCompatActivity() {
 
@@ -31,14 +33,16 @@ class options : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnModificar.setOnClickListener {
+        btnReglamento.setOnClickListener {
             val intent = Intent(this,Reglamento::class.java)
             startActivity(intent)
         }
 
-        btnModificar.setOnClickListener {
-            val intent = Intent("https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=24&resourceId=217")
-            startActivity(intent)
+        btnExamen.setOnClickListener {
+            val intentWeb = Intent()
+            intentWeb.action = Intent.ACTION_VIEW
+            intentWeb.data = Uri.parse("https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=24&resourceId=217")
+            startActivity(intentWeb)
         }
 
     }
