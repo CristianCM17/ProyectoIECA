@@ -15,6 +15,9 @@
         android:theme="@style/Base.Theme.ProyectoIECA"
         tools:targetApi="31">
         <activity
+            android:name=".options"
+            android:exported="false" />
+        <activity
             android:name=".Index"
             android:exported="false" />
         <activity

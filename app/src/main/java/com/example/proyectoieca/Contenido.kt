@@ -21,14 +21,14 @@ class Contenido : AppCompatActivity() {
 
             // Crear una lista de elementos PptItem con los títulos y URLs
             val pptItems = listOf(
-                PptItem("Fundamentos de Java", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Fundamentos de Android", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Activities de Android", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Componentes graficos de Andoroid", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Fragments", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Servicios Web", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Fire Base", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12"),
-                PptItem("Utilidades Avanzadas", "https://ieca.conectatalentomx.com/app/virtual-classroom/3?moduleId=17&resourceId=12")
+                PptItem("Fundamentos de Java", "https://drive.google.com/file/d/1wzLTXz_nb_ktsKRf2fvczM00FgkYjU7B/view?usp=sharing"),
+                PptItem("Fundamentos de Android", "https://drive.google.com/file/d/1Lc78I1IJ6B3QrVDWQ2gp05aeMAj1F3tY/view?usp=sharing"),
+                PptItem("Activities de Android", "https://drive.google.com/file/d/1OkKGnGoanu2LfuA2to48V8AeXkXTp4OY/view?usp=sharing"),
+                PptItem("Componentes graficos de Andoroid", "https://drive.google.com/file/d/1DSe75V9MfmgrWUs6J7kcffhDRrdHFycf/view?usp=sharing"),
+                PptItem("Fragments", "https://drive.google.com/file/d/1NdpHRyO8_IDf2yrnzp9pl3h0ykj9uup-/view?usp=sharing"),
+                PptItem("Servicios Web", "https://drive.google.com/file/d/1N5z70ZMSoR32thdJrvuTQXU7kRGEjZ5M/view?usp=sharing"),
+                PptItem("Fire Base", "https://drive.google.com/file/d/1XHmgjroOjJYPcdesZmqzer4_KEjpE1-Z/view?usp=sharing"),
+                PptItem("Utilidades Avanzadas", "https://drive.google.com/file/d/1h88dQ_59AKP-_1RM4_S-kU23vKlB8-u4/view?usp=sharing")
 
         )
 

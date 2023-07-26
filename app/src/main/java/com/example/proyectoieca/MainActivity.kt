@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun intent(){
-        val intent = Intent(this,Temas::class.java)
+        val intent = Intent(this,options::class.java)
         startActivity(intent)
     }
 
